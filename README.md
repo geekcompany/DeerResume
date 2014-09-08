@@ -13,6 +13,7 @@ DeerResume
 Demo → http://deercv.sinaapp.com/  阅读密码 4444 
 
 部署指南：→ http://get.jobdeer.com/745.get
+
 如果懒得部署，可以使用在线版本： → http://cvbox.sinaapp.com/
 
 教学：《如何写好一份技术简历》 → http://get.jobdeer.com/744.get
