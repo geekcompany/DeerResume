@@ -56,6 +56,11 @@ html, body
     text-align: center;
 }
 
+.pad40
+{
+    padding:40px;
+}
+
 .ngn
 {
     /*padding:0px!important;*/

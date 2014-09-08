@@ -5,7 +5,13 @@
 
 </div>  
 
-<form role="form">
+<div ng-show="resume.show==0" class="pad40">
+ <center>
+    <p>请返回首页，输入阅读密码后再编辑</p>
+ </center>   
+</div>
+
+<form role="form" ng-show="resume.show==1">
 
 <div class="settings form-inline">
   <div class="form-group">
