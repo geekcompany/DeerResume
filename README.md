@@ -8,6 +8,10 @@ DeerResume
   - 在线MarkDown编辑器+实时预览
   - 支持阅读密码，您可以直接将网址和密码发送，供招聘方在线浏览
   - 一键生成简单雅致的PDF，供邮件发送及打印
+  
+
+Demo → http://deercv.sinaapp.com/  阅读密码 4444 
+  
 
 
 详细使用说明请移步 → http://get.jobdeer.com/744.get
