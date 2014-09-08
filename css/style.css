@@ -49,6 +49,7 @@ html, body
     margin-left: auto;
     margin-right: auto;
     padding:20px;
+    word-break:break-all;
 }
 
 .passbox
