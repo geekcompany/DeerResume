@@ -1,0 +1,261 @@
+body
+{
+    height: 100%;
+    max-height: 100%;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",Georgia,tahoma,arial,simsun,"宋体";
+    font-size: 2.0rem;
+    line-height: 1.6em;
+    color: #3A4145;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+.site-head
+{
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #fff;
+    background: #303538 no-repeat center center;
+    background-size: cover;
+}
+
+.site-head h1
+{
+    font-size: 36px; 
+    line-height: 40px;
+}
+
+.site-head .subtitle
+{
+    font-size: 24px;
+}
+
+.vertical
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content
+{
+    max-width:768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+}
+
+.passbox
+{
+    text-align: center;
+}
+
+.ngn
+{
+    /*padding:0px!important;*/
+    bottom: 0px; 
+}
+
+.passinput
+{
+    max-width: 300px;
+}
+
+.shadow-content
+{
+    display: none;
+}
+
+.action-bar
+{
+    position: fixed;
+    top:20px;
+    right:20px;
+    width:100px;
+    height:100px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.action-bar img
+{
+    cursor: pointer;
+}
+
+.action-bar a,.editor-box .top a
+{
+    color:white;
+}
+
+.editor-box .top
+{
+    background:#303538 no-repeat center center; 
+    padding:20px;
+}
+
+.editor-box .top .title
+{
+    font-size: 18px;
+    line-height: 20px; 
+    color:white;
+}
+
+.editor-box .top .action
+{
+    text-align: right;
+}
+
+.editor-box .top .action a:hover
+{
+    color:#eee;
+}
+
+.editor-box .settings
+{
+    background-color: #f4f4f4;
+    padding:20px;
+}
+
+.editor-box .editor,.editor-box .preview
+{
+    padding:20px;
+}
+
+.editor-box .editor
+{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-right: 1px dashed #eee;
+}
+
+.editor-box .preview
+{
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    border-right:1px dashed #eee;
+    font-size: 14px;
+    padding:10px;
+    overflow-y: scroll;
+}
+
+.editor-box .earea
+{
+    height:100%;
+}
+
+.editor-box *
+{
+  outline: none;  
+}
+
+.editor-box
+{
+    clear:both;
+    position: absolute;
+    top:0px;
+    height:100%;
+    width:100%;
+    overflow: hidden; 
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*
+
+.editor-box
+{
+    clear:both;
+    position: absolute;
+    top:0px;
+    height:100%;
+    width:100%;
+    background:#303538 no-repeat center center;
+    overflow: hidden; 
+}
+
+.editor-box .title
+{
+    font-size: 18px;
+    line-height: 20px; 
+    margin: 0px;
+    padding: 20px;
+    color:white;
+    font-weight: lighter;
+    display: block;
+    margin-right: 20px;
+}
+
+.editor-box .done
+{
+    float:right;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.editor-box .row 
+{
+    clear:both;
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color:white;
+    min-height: 600px;
+}
+
+.editor-box *
+{
+  outline: none;  
+}
+
+
+
+.editor-box .row .editor
+{
+    width:50%;
+    height: 90%;
+    float: left;
+}
+
+.editor-box .row .editor textarea
+{
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    border-right:1px dashed #eee;
+    font-size: 14px;
+    padding:10px;
+    overflow-y: scroll;
+}
+
+.editor-box .row .preview
+{
+    float: right;
+    padding:10px;
+    width:45%;
+    font-size: 14px;
+    height: 90%;
+    overflow-y: scroll;
+
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+

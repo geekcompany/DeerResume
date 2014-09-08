@@ -1,0 +1,310 @@
+/**
+ * yue.css
+ *
+ * yue.css is designed for readable content.
+ *
+ * Copyright (c) 2013 - 2014 by Hsiaoming Yang.
+ */
+
+
+
+.yue {
+  font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  color: #444443;
+}
+
+.windows .yue {
+  font-size: 16px;
+  font-family: "Georgia", "SimSun", sans-serif;
+}
+
+.yue ::-moz-selection {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.yue ::selection {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.yue h1,
+.yue h2,
+.yue h3,
+.yue h4,
+.yue h5,
+.yue h6 {
+  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
+  color: #222223;
+}
+
+.yue h1 {
+  font-size: 1.8em;
+  margin: 0.67em 0;
+}
+
+.yue > h1 {
+  margin-top: 0;
+  font-size: 2em;
+}
+
+.yue h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+.yue h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+.yue h4,
+.yue h5,
+.yue h6 {
+  font-size: 1em;
+  margin: 1.6em 0 1em 0;
+}
+
+.yue h6 {
+  font-weight: 500;
+}
+
+.yue p {
+  margin-top: 0;
+  margin-bottom: 1.46em;
+}
+
+.yue a {
+  color: #111;
+  word-wrap: break-word;
+  text-decoration-color: rgba(0, 0, 0, 0.4);
+}
+
+.yue a:hover {
+  color: #555;
+  text-decoration-color: rgba(0, 0, 0, 0.6);
+}
+
+.yue strong,
+.yue b {
+  font-weight: 700;
+  color: #222223;
+}
+
+.yue em,
+.yue i {
+  font-style: italic;
+  color: #222223;
+}
+
+.yue img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.2em 0;
+}
+
+.yue a img {
+  /* Remove border on IE */
+  border: none;
+}
+
+.yue figure {
+  position: relative;
+  clear: both;
+  outline: 0;
+  margin: 10px 0 30px;
+  padding: 0;
+  min-height: 100px;
+}
+
+.yue figure img {
+  display: block;
+  max-width: 100%;
+  margin: auto auto 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.yue figure figcaption {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666665;
+}
+
+.yue figure figcaption a {
+  text-decoration: none;
+  color: #666665;
+}
+
+.yue hr {
+  display: block;
+  width: 14%;
+  margin: 40px auto 34px;
+  border: 0 none;
+  border-top: 3px solid #dededc;
+}
+
+.yue blockquote {
+  margin: 0 0 1.64em 0;
+  border-left: 3px solid #dadada;
+  padding-left: 12px;
+  color: #666664;
+}
+
+.yue blockquote a {
+  color: #666664;
+}
+
+.yue ul,
+.yue ol {
+  margin: 0 0 24px 6px;
+  padding-left: 16px;
+}
+
+.yue ul {
+  list-style-type: square;
+}
+
+.yue ol {
+  list-style-type: decimal;
+}
+
+.yue li {
+  margin-bottom: 0.2em;
+}
+
+.yue li ul,
+.yue li ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 14px;
+}
+
+.yue li ul {
+  list-style-type: disc;
+}
+
+.yue li ul ul {
+  list-style-type: circle;
+}
+
+.yue li p {
+  margin: 0.4em 0 0.6em;
+}
+
+.yue .unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.yue code,
+.yue tt {
+  color: #808080;
+  font-size: 0.96em;
+  background-color: #f9f9f7;
+  padding: 1px 2px;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.yue pre {
+  margin: 1.64em 0;
+  padding: 7px;
+  border: none;
+  border-left: 3px solid #dadada;
+  padding-left: 10px;
+  overflow: auto;
+  line-height: 1.5;
+  font-size: 0.96em;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  color: #4c4c4c;
+  background-color: #f9f9f7;
+}
+
+.yue pre code,
+.yue pre tt {
+  color: #4c4c4c;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.yue table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.5em;
+  font-size: 0.96em;
+}
+
+.yue th,
+.yue td {
+  text-align: left;
+  padding: 4px 8px 4px 10px;
+  border: 1px solid #dadada;
+}
+
+.yue td {
+  vertical-align: top;
+}
+
+.yue tr:nth-child(even) {
+  background-color: #efefee;
+}
+
+.yue iframe {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.yue figure iframe {
+  margin: auto;
+}
+
+.yue table pre {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+@media (min-width: 1100px) {
+  .yue blockquote {
+    margin-left: -24px;
+    padding-left: 20px;
+    border-width: 4px;
+  }
+
+  .yue blockquote blockquote {
+    margin-left: 0;
+  }
+
+  .yue figure img {
+    margin: 0 0 4px;
+  }
+
+  .yue figure figcaption:before {
+    width: 25%;
+    margin-left: 75%;
+    border-top: 1px solid #dededc;
+    display: block;
+    content: "";
+    margin-bottom: 10px;
+  }
+
+  .yue figure figcaption {
+    position: absolute;
+    left: -172px;
+    width: 150px;
+    top: 0;
+    text-align: right;
+    margin-top: 0;
+  }
+}

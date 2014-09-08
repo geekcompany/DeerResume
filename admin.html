@@ -1,0 +1,56 @@
+<div class="editor-box">
+<div class="row top">
+  <div class="col-md-3 title">修改简历</div>
+  <div class="col-md-9 action"><a ng-href="#/resume">返回首页</a></div>
+
+</div>  
+
+<form role="form">
+
+<div class="settings form-inline">
+  <div class="form-group">
+    <input type="text" class="form-control" id="title" name="title" placeholder="简历标题" ng-model="resume.title">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="subtitle" name="subtitle" placeholder="简历小标题" ng-model="resume.subtitle">
+  </div>
+  <div class="form-group">
+    <label for="admin_password">管理密码</label>
+    <input type="password" class="form-control" id="admin_password" name="admin_password" placeholder="" ng-model="resume.admin_password">
+  </div>
+
+  <div class="form-group">
+    <label for="view_password">阅读密码</label>
+    <input type="password" class="form-control" id="view_password" name="view_password" placeholder="为空则公开可见" ng-model="resume.view_password">
+  </div>
+  
+  
+  <button type="submit" class="btn btn-default" ng-click="save(resume)">保存</button>
+
+
+</div>  
+
+
+
+<div class="row earea">
+   <div class="col-md-6">
+      <textarea class="editor" ng-model="resume.content" id="edit_area" >
+      </textarea>
+
+      
+   </div>
+   <div class="col-md-6">
+      <div class="preview yue" id="editor-preview" ng-bind-html="resume.content | wizMarkdownFltr"></div>
+   </div> 
+  </div> 
+</form> 
+</div>
+<script type="text/javascript">
+$(document).ready(function()
+  {
+    var h = $(window).height() - 135 + 'px';
+    $('#edit_area').css('height', h );
+    $('#editor-preview').css('height', h );
+    console.log(h);
+  });
+</script>

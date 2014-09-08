@@ -1,0 +1,25 @@
+  <header class="site-head">
+    <div class="vertical">
+      <h1 id="drtitle">{{resume.title}}</h1>
+      <p class="subtitle" id="drsubtitle">{{resume.subtitle}}</p>
+    </div> 
+  </header>  
+  <div class="content yue" id="cvcontent" ng-bind-html="resume.content | wizMarkdownFltr" ng-show="resume.show==1">
+  </div>  
+  <div class="content passbox" ng-show="resume.show==0">
+    <center>
+    <p>本简历受密码保护，请输入阅读密码后继续</p>
+    <div class="input-group passinput">
+      <input type="password" class="form-control" name="vpass" ng-model="vpass">
+      <span class="input-group-btn">
+        <button class="btn btn-default " type="button" ng-click="password(vpass)">确定</button>
+      </span>
+    </div><!-- /input-group -->
+  </center>
+  </div>  
+
+  <div class="action-bar">
+  <a href="https://github.com/geekcompany/DeerResume"><img src="image/home.png" /></a>  
+  &nbsp;&nbsp;&nbsp;<a href="javascript:makepdf()" title="PDF格式"><img src="image/book.png" /></a>
+  &nbsp;&nbsp;&nbsp;<a ng-href="#/admin"><img src="image/cog.png" /></a>
+  </div> 

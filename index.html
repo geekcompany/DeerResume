@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="deerResume">
+<head>
+  <meta charset="utf-8">
+  <title>DeerResume</title>
+  <link href="image/browser.png" rel="shortcut icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/yue.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="bower/components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower/components/ng-notify/dist/ng-notify.min.css">
+  <script src="bower/components/jquery/dist/jquery.min.js"></script>
+  <script src="bower/components/angular/angular.min.js"></script>
+  <script src="bower/components/angular-route/angular-route.min.js"></script>
+  <script src="bower/components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="bower/components/showdown/compressed/showdown.js"></script>
+  <script src="bower/components/ng-notify/dist/ng-notify.min.js"></script>
+  <script src="js/wizMarkdown.min.js"></script>
+  <script src="js/jspdf.min.js"></script>
+  <script src="js/jspdf.plugin.addhtml.js"></script>
+  <script src="bower/components/angular-cookies/angular-cookies.min.js"></script>
+  <script src="bower/components/angularLocalStorage/src/angularLocalStorage.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <base target="_blank">
+  <div ng-view id="resume_body"></div>
+</body>
+</html>
