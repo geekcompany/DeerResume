@@ -49,6 +49,7 @@ deerResume.controller('adminCtrl', function ($scope,$http,storage,ngNotify) {
   storage.bind($scope,'wpass');
   storage.bind($scope,'vpass');
   storage.bind($scope,'apass');
+  storage.bind($scope,'resume.content');
 
   var url = '';
   if( $scope.vpass && $scope.vpass.length > 3 )
@@ -57,9 +58,11 @@ deerResume.controller('adminCtrl', function ($scope,$http,storage,ngNotify) {
     url = baseurl+"?a=show&domain="+encodeURIComponent(window.location);
 
   $http.get(url).success(function( data ){
+      var oldcontent = $scope.resume.content;
       $scope.resume = data;
       $scope.resume.admin_password = $scope.apass;
       $scope.resume.view_password = $scope.wpass;
+      if( oldcontent.length > 0  ) $scope.resume.content = oldcontent;
     }); 
 
   $scope.save = function( item )
