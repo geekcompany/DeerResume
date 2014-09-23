@@ -18,3 +18,11 @@ Demo → http://deercv.sinaapp.com/  阅读密码 4444
 
 
 教学：《如何写好一份技术简历》 → http://get.jobdeer.com/744.get
+
+### FAQ
+
+如何在没有云端的情况下使用DeerResume？
+
+- 请在可访问云端的情况下完成MarkDown的编辑，然后复制好简历内容。
+- 修改app.js 注释掉第3行，打开第4行，将数据源切到本地。 
+- 修改data.php 填入标题和内容，并按自己的需要设置阅读密码。
