@@ -1,6 +1,8 @@
 var deerResume = angular.module('deerResume', ['ngRoute','wiz.markdown','ngNotify','angularLocalStorage']);
-//var baseurl = '/';
-var baseurl = 'http://cvbox.sinaapp.com/';
+
+var baseurl = 'http://cvbox.sinaapp.com/'; // 使用SAE托管简历数据
+// var baseurl = 'data.php'; // 使用本地文件托管简历数据，本地模式下，不支持在线编辑
+
 
 deerResume.config(['$routeProvider',
   function($routeProvider) {
