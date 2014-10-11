@@ -106,31 +106,39 @@ deerResume.controller('adminCtrl', function ($scope,$http,storage,ngNotify) {
 // ============
 function makepdf()
 {
-  post('http://pdf.ftqq.com',{'title':$('#drtitle').html(),'subtitle':$('#drsubtitle').html(),'content':$('#cvcontent').html(),'pdfkey':'jobdeersocool'});
+  //post('http://pdf.ftqq.com',{'title':$('#drtitle').html(),'subtitle':$('#drsubtitle').html(),'content':$('#cvcontent').html(),'pdfkey':'jobdeersocool'});
+  $("#hform [name=title]").val($('#drtitle').html());
+  $("#hform [name=subtitle]").val($('#drsubtitle').html());
+  $("#hform [name=content]").val($('#cvcontent').html());
+  $("#hform [name=pdfkey]").val('jobdeersocool');
+  $("#hform").submit();
 }
 
 function post(path, params, method) {
     method = method || "post"; // Set method to post by default if not specified.
 
-    // The rest of this code assumes you are not using a library.
-    // It can be made less wordy if you use one.
-    var form = document.createElement("form");
-    form.setAttribute("method", method);
-    form.setAttribute("action", path);
-    form.setAttribute("target", "_blank");
+    var form = jQuery('<form/>', {
+    'id':'hform',
+    'method':method ,
+    'action':path,
+    'target':'_blank'
+    });
 
     for(var key in params) {
         if(params.hasOwnProperty(key)) {
-            var hiddenField = document.createElement("input");
-            hiddenField.setAttribute("type", "hidden");
-            hiddenField.setAttribute("name", key);
-            hiddenField.setAttribute("value", params[key]);
+            
+            var hiddenField = jQuery('<input/>', {
+            'type':'hidden' ,
+            'name':key,
+            'value':params[key]
+            });
 
             form.appendChild(hiddenField);
          }
     }
 
-    document.body.appendChild(form);
+
+
     form.submit();
 }
 
