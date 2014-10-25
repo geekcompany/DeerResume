@@ -15,7 +15,7 @@ DeerResume
 
 免部署的在线版本： → http://cvbox.sinaapp.com/
 
-Demo → http://deercv.sinaapp.com/  阅读密码 4444 
+Demo → http://easy.digitcv.com/  
 
 部署指南：→ http://get.jobdeer.com/745.get
 
