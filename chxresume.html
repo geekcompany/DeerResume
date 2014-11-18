@@ -1,9 +1,4 @@
-  <header class="site-head">
-    <div class="vertical">
-      <h1 id="drtitle">{{resume.title}}</h1>
-      <p class="subtitle" id="drsubtitle">{{resume.subtitle}}</p>
-    </div> 
-  </header>  
+
   <div class="content yue" id="cvcontent" ng-bind-html="resume.content | wizMarkdownFltr" ng-show="resume.show==1">
   </div>  
   <div class="content passbox" ng-show="resume.show==0">
