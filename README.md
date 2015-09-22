@@ -3,6 +3,8 @@ DeerResume
 
 ![img](http://www.jobdeer.com/img/rd.png)
 
+> DeerResume 不支持找回密码，如需持久化存储请使用基于DeerResume开发的托管服务 [DeerCV](http://www.deercv.com)。
+
 最好用的MarkDown在线简历工具，可在线预览、编辑、设置访问密码和生成PDF
 
   - 可自行搭建，任意修改页面样式和风格
