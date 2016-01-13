@@ -1,33 +1,45 @@
-DeerResume
-==========
-
-![img](http://www.jobdeer.com/img/rd.png)
-
-> DeerResume 不支持找回密码，如需持久化存储请使用基于DeerResume开发的托管服务 [DeerCV](http://www.deercv.com)。
-
-最好用的MarkDown在线简历工具，可在线预览、编辑、设置访问密码和生成PDF
-
-  - 可自行搭建，任意修改页面样式和风格
-  - 免安装，可放置于任何支持静态页面的云和服务器（当然包括GitHub
-  - 在线MarkDown编辑器+实时预览
-  - 在浏览器中实时保存草稿
-  - 支持阅读密码，您可以直接将网址和密码发送，供招聘方在线浏览
-  - 一键生成简单雅致的PDF，供邮件发送及打印
-  
-
-免部署的在线版本： → http://cvbox.sinaapp.com/
-
-Demo → http://easy.digitcv.com/  
-
-部署指南：→ http://get.jobdeer.com/745.get
+---
 
 
-教学：《如何写好一份技术简历》 → http://get.jobdeer.com/744.get
+# 联系方式
 
-### FAQ
+- 手机：18814117820
+- Email: a844065343@live.cn
+- QQ/微信号：Vigin_Tse
 
-如何在没有云端的情况下使用DeerResume？
+---
 
-- 请在可访问云端的情况下完成MarkDown的编辑，然后复制好简历内容。
-- 修改app.js 注释掉第3行，打开第4行，将数据源切到本地。 
-- 修改data.php 填入标题和内容，并按自己的需要设置阅读密码。
+# 个人信息
+
+ - 谢伟津/男/1994
+ - 本科在读/广州大学华软软件学院
+
+
+---
+
+# 技能清单
+
+
+以下均为我熟练使用的技能
+
+- Web开发：java
+- Web框架：Spring/Spring MVC/Mybatis/Hibernate
+- 前端：CSS+HTML/Javascript/jQuery
+- 数据库相关：MySQL/SQLite/SQLServer
+- 开发坏境:eclipse/myeclipse/netbeans
+- 版本管理、文档和自动化部署工具：Git
+- 单元测试：JUnit
+
+
+---
+
+#项目经历
+
+## 购物网站 （2015 3~ 2015 5）
+
+- 这个项目由个人独立完成，使用了ssm+Bootstrap+SQLServer提高开发效率，功能实现性代码有注释
+
+##  广东省外包服务项目实训（2015 6~7）
+
+- 企业信息系统管理平台，分为PC端和web端两部分，按照MVC开发模式，使用了java+Spring MVC+jQuery+MySQL提高开发效率
+
