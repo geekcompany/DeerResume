@@ -31,3 +31,19 @@ DeerResume
 - 请在可访问云端的情况下完成MarkDown的编辑，然后复制好简历内容。
 - 修改app.js 注释掉第3行，打开第4行，将数据源切到本地。 
 - 修改data.php 填入标题和内容，并按自己的需要设置阅读密码。
+
+如何在本地修改样式保存PDF？
+- 在 resume.html 中加入如下代码
+   ```
+    <style>
+      @media print {
+        .site-head,.action-bar {
+          display: none;
+        }
+      }
+    </style>
+    ```
+- 在 chrome 中打开网页
+- 右键该简历网页选择打印
+- 目标打印机改成另存为PDF
+- 保存
