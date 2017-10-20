@@ -1,4 +1,6 @@
-!!! DeerCV.com 的域名到期了，有需要查看自己简历内容的同学，请在本地host中将 deercv.com 和  yourdomain.deercv.com 还有静态文件域名 static.deercv.com 解析到 43.241.215.206 。
+DeerCV.com 已停止运营。稍后我会整理一个独立 Host 的版本出来。
+
+
 DeerResume
 ==========
 
