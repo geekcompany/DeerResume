@@ -1,10 +1,6 @@
 DeerResume
 ==========
 
-![img](http://www.jobdeer.com/img/rd.png)
-
-> DeerResume 不支持找回密码，~~如需持久化存储请使用基于DeerResume开发的托管服务 [DeerCV](http://www.deercv.com)。~~ !!! DeerCV.com 虽然现在还可以用，但随时可能登陆不上，所以生成好简历以后请备份数据。请备份数据。请备份数据。（主要是因为原来登陆用的公众号转给别人了，但登录用的是和该号绑定的openid… 我稍后弄一个简版出来。 ）
-
 最好用的MarkDown在线简历工具，可在线预览、编辑、设置访问密码和生成PDF
 
   - 可自行搭建，任意修改页面样式和风格
@@ -15,13 +11,13 @@ DeerResume
   - 一键生成简单雅致的PDF，供邮件发送及打印
   
 
-免部署的在线版本： → http://cvbox.sinaapp.com/
+免部署的在线版本： → http://cvbox.sinaapp.com/ | 更好用的在线版 http://link.ftqq.com/0rsRL
 
 
 部署指南：→ http://get.jobdeer.com/745.get
 
 
-教学：《如何写好一份技术简历》 → http://get.jobdeer.com/744.get
+教学：《如何写好一份技术简历》 →  http://link.ftqq.com/KWkVX
 
 ### FAQ
 
