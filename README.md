@@ -11,10 +11,10 @@ DeerResume
   - 一键生成简单雅致的PDF，供邮件发送及打印
   
 
-免部署的在线版本： → http://cvbox.sinaapp.com/ | 更好用的在线版 http://link.ftqq.com/0rsRL
-
 
 部署指南：→ http://get.jobdeer.com/745.get
+
+更好用的在线 Markdown 简历 http://link.ftqq.com/0rsRL
 
 
 教学：《如何写好一份技术简历》 →  http://link.ftqq.com/KWkVX
