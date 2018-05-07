@@ -12,7 +12,7 @@ DeerResume
   
 
 
-部署指南：→ http://get.jobdeer.com/745.get
+部署指南：→ http://get.ftqq.com/745.get
 
 更好用的在线 Markdown 简历 http://link.ftqq.com/0rsRL
 
